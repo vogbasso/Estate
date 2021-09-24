@@ -1,0 +1,12 @@
+<odoo>
+    <menuitem id="estate_menu_" name="Real Estate">
+        <menuitem id="second_estate_property_menu" name="Advertissement">
+            <menuitem id="third_estate_property_menu" action="estate_property_model_action"/>
+        </menuitem>
+        <menuitem id="second_estate_propety_type_menu" name="Setting">
+            <menuitem id="third_estate_propety_type_menu" action="estate_property_type_action"/>
+            <menuitem id="third_estate_property_tag_menu" action="estate_property_tag_action"/>
+            <menuitem id="third_estate_property_offer_menu" action="estate_property_offer_action"/>
+        </menuitem>
+    </menuitem>
+</odoo>
